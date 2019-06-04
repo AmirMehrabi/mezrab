@@ -1,0 +1,152 @@
+body {
+    direction: rtl;
+    font-family: IRANSans;
+    text-align: right;
+}
+
+.navbar {
+    padding: 0rem 1rem;
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+
+.padding-lang-btn {
+    padding: 0.75rem;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem !important;
+}
+
+.nav-link-btn {
+    display: block;
+    padding: 0.25rem 1rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-left: .5rem;
+    color: #fff;
+    content: ">>";
+}
+
+.breadcrumb-transparent {
+    background: transparent;
+    padding: .75rem 0rem;
+}
+
+.breadcrumb-item-transparent.active {
+    color: #fff;
+}
+
+.bg-triangle {
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #10224a 50%, #10224a 100%);
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free", IRANSans;
+}
+
+
+/* Size */
+
+.mvh-15 {
+    min-height: 15vh !important;
+}
+
+
+/* Colors */
+
+.bg-main {
+    background: #10224a !IMPORTANT;
+}
+
+.text-main {
+    columns: #10224a !IMPORTANT;
+}
+
+.bg-jungle {
+    background: #26C281;
+}
+
+.text-jungle {
+    color: #26C281;
+}
+
+
+
+/* Links */
+
+.navbar-light .navbar-nav .nav-link {
+    color: #10224a;
+    padding: 1rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #22A7F0;
+    border-bottom: 3px solid;
+}
+
+
+
+/* Buttons */
+
+.btn-main {
+    color: #fff;
+    background-color: #10224a;
+    border-color: #10224a;
+}
+
+.btn-main:hover {
+    color: #fff;
+    background-color: #10224a;
+    border-color: #10224a;
+}
+
+.btn-pale {
+    color: #fff;
+    background-color: #22A7F0;
+    border-color: #22A7F0;
+}
+
+.btn-pale:hover {
+    color: #fff;
+    background-color: #22A7F0;
+    border-color: #22A7F0;
+}
+
+
+
+/* Media Queries */
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .search-input {
+        width: 100% !IMPORTANT;
+    }
+
+    .search-button {
+        width: 100%;
+        display: block;
+        margin-right: 0px !IMPORTANT;
+    }
+
+    .input-group-search-button {
+        width: 100%;
+        display: block;
+    }
+
+    .input-group-search {
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%!IMPORTANT;
+    }
+}
