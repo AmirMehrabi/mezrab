@@ -520,3 +520,46 @@ section.intro {
   padding-left: 15px;
   padding-right: 0px;
 }
+
+
+
+
+
+
+
+/* Navbar styles */
+.navbar {
+	padding: 0.1rem 1rem !IMPORTANT;
+}
+
+.img-navbar {
+	width: 27px;
+	vertical-align: text-bottom;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+	background: #272a2d82;
+}
+
+.navbar-collapse {
+	text-align: right;
+}
+
+@media (min-width: 576px) {
+	.navbar-expand-sm .navbar-nav .nav-link {
+		padding-right: .75rem;
+		padding-left: .75rem;
+	}
+}
+
+
+
+/* End of navbar styles */
+
+
+.IRANSans {
+	font-family: IRANSans !important;
+}
